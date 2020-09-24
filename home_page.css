@@ -1,0 +1,48 @@
+head{
+	
+}
+
+body{
+	background: url("1bt.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.p1{
+	
+	background-size:200% 200%;
+	
+}
+nav{
+	padding-left: 0px;
+	padding-top: 10px;
+	background-color: solid;
+}
+li{
+	display:inline;
+	padding-right: 15px;
+	color:grey;
+	font-size: 20px;
+}
+.a{
+	padding-bottom: 8px;
+	text-align: center;
+	font-size:50px;
+	color:#ff1a1a;
+	text-shadow: 4px 3px  #1a0000;
+}
+
+ul a{
+	text-decoration: none;
+	color:#ffffff;
+}
+ul a:hover{
+	text-decoration: underline;
+	font-size: 20px;
+	color:grey;
+}
+ul{
+	
+}
+

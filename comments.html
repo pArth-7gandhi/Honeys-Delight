@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comments</title>
+	<link rel="stylesheet" type="text/css" href="comments.css"/>
+	<h2 ><center>Your Feedback Matters.</center> </h2>
+	<script>
+		function newfunc()
+		{
+			document.getElementById("abc").innerHTML="Your feedback has been submitted succesfully. Thank You!!";
+		}
+	</script>
+</head>
+<body>
+	<p id="abc"></p>
+	<form>
+		<ul>
+			<li class="a">
+				<label for="name">Enter Your Name: </label>
+				<input id="name" name="name"/>
+			</li>
+			<li class="a">
+				<label for"mobile">Mobile no:</label>
+				<input id="mobile" name="mobile"/>
+			</li>
+
+			<li class="a">
+				<label for"mail">Email id: </label>
+				<input id="mail" name="mail"/>
+			</li>
+
+			<li >
+				<label for="comments">Your Comments: </label>
+				<textarea id="comments" name="comments">
+				</textarea>
+			</li>
+			<li>
+				<label for="likings">Did you like our burger?</label>
+				<input type="checkbox" name="likings"/>
+			</li>
+			<li>
+				<label for="tick">How much would you rate our burger?</label>
+				<input type="radio" name="tick"/>5
+				<input type="radio" name="tick"/>4
+				<input type="radio" name="tick"/>3
+				<input type="radio" name="tick"/>2
+				<input type="radio" name="tick"/>1
+			</li>
+			<li>
+				<input type="submit" onsubmit="newfunc()">
+			</li>
+	</form>
+
+</body>
+</html>
